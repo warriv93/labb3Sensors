@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="20dp"
+android:background="#ccc"
+    android:nestedScrollingEnabled="false">
+
+<!-- FIGUR 3 -->
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Name"
+    android:id="@+id/tv_details_name"
+    android:textSize="70px" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="by "
+    android:id="@+id/tv_details_vendor"
+    android:textSize="40px" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="using:"
+    android:id="@+id/tv_details_usage"
+    android:textSize="40px" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="range:"
+    android:id="@+id/tv_details_range"
+    android:textSize="40px" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="resolution:"
+    android:id="@+id/tv_details_res"
+    android:textSize="40px" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:id="@+id/textView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="data:"
+            android:id="@+id/tv_details_data"
+            android:paddingTop="150dp"
+            android:textSize="40px" />
+    </ScrollView>
+</LinearLayout>
